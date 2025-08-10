@@ -1,5 +1,6 @@
 streamlit==1.26.0
 supabase==1.0.0
 pandas==1.5.3
-pdfplumber==0.9.0
+pdfplumber==0.11.2
 scikit-learn==1.2.2
+

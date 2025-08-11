@@ -58,7 +58,7 @@ def main_app():
         st.image("Smarteklogo.jpg", use_container_width=True)
         st.markdown("---")
     
-    st.image("smart.png", width=100,)  # Adjust width to your liking
+    st.image("Smart.png", width=100,)  # Adjust width to your liking
 # Display page title next to the logo
     #st.markdown("<h1 style='display: inline-block; vertical-align: middle; margin-left: 10px;'>SmartRecon</h1>", unsafe_allow_html=True)
     

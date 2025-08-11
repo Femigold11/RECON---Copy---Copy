@@ -6,5 +6,7 @@ pandas
 fuzzywuzzy
 openpyxl
 python-Levenshtein
+python-dotenv
+
 
 

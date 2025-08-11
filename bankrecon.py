@@ -218,7 +218,7 @@ def main_app():
         return df[["amount", "weekday", "desc_length", "desc_word_count"]]
 
     def detect_anomalies_isolation_forest(df, features_df):
-        model = IsolationForest(n_estimators=100, contamination=0.05, random_state=42)
+        model = IsolationForest(n_estimators=100, contamination=0.01, random_state=42)
         model.fit(features_df)
         df["anomaly"] = model.predict(features_df)
         df["anomaly_flag"] = df["anomaly"].map({-1: "Anomaly", 1: ""})

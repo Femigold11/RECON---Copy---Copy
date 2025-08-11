@@ -55,7 +55,7 @@ def main_app():
     st.set_page_config(page_title="SmartRecon", page_icon="Smart.png", layout="wide", initial_sidebar_state="expanded")
     st.markdown('<style>div.block-container{padding-top:2rem;}</style>',unsafe_allow_html=True)
     with st.sidebar:
-        st.image("smarteklogo.jpg", use_container_width=True)
+        st.image("Smarteklogo.jpg", use_container_width=True)
         st.markdown("---")
     
     st.image("smart.png", width=100,)  # Adjust width to your liking
@@ -416,7 +416,7 @@ def auth_app():
     st.set_page_config(page_title="Bank Reconciliator",  page_icon="Smart.png", layout="centered", initial_sidebar_state="expanded")
     with st.sidebar:
         
-        st.image("smarteklogo.png", use_container_width=True)
+        st.image("Smarteklogo.png", use_container_width=True)
         st.markdown("---")
         st.markdown('<div class="subtitle3">WELCOME</div></div>', unsafe_allow_html=True)
     
